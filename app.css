@@ -7,10 +7,16 @@ body{
     padding: 15px;
 }
 
-.container-sm{  
+.container-sm{
+margin-top: 5px; 
     text-align: center;
-    border: 3px solid magenta;
+    border: 3px solid rgb(175, 137, 175);
 }
+#picture{
+margin-top: 1em;
+}
+#buttons{
+margin-bottom: 1em;}
 .maxscore{
     margin: 5px;
 }
