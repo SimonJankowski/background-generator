@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping pong scoreboard</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="row align-items-start">
+            <div class="col">
+                <label for="p1name">Enter player's 1 Name</label>
+                <input type="text" placeholder="player's name" id="p1Name">
+                <label for="p2name">Enter player's 2 Name</label>
+                <input type="text" placeholder="player's name" id="p2Name">
+            </div>
+            <div class="col">
+                <section class="container-sm"">
+                    <img src=" https://i.ytimg.com/vi/b7sLVoKLnVw/hqdefault.jpg" alt="">
+
+                    <ul>
+                        <li id="taLinia"><span id="playerOneSpan">0</span> to <span id="playerTwoSpan">0</span></li>
+                        <li id="congratsLi">Welcome</li>
+                    </ul>
+                    <label for="maxscore" class="maxscore">Choose score you wanna play to</label>
+                    <select id="maxscore">
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                        <option value=10>10</option>
+                        <option value=11>11</option>
+                    </select>
+                    <p>
+                        Use buttons below to keep the score
+                    </p>
+                    <section>
+                        <button id="playerOneButton" type="button" class="btn btn-success">Player one +1</button>
+                        <button id="playerTwoButton" type="button" class="btn btn-success">Player two +1</button>
+                        <button id="resetButton" type="button" class="btn btn-danger">Reset</button>
+                    </section>
+                </section>
+            </div>
+            <div class="col">
+                <h2>Set score</h2>
+                <p id="wynikSetow">
+                    <span id="playerOneSet">0</span> to <span id="playerTwoSet">0</span>
+                </p>
+                <ol id="listaSetow">
+
+                </ol>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

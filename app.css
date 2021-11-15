@@ -1,0 +1,29 @@
+body{
+    font-size: large;
+    display: flex;
+}
+.col{
+    text-align: center;
+    padding: 15px;
+}
+
+.container-sm{  
+    text-align: center;
+    border: 3px solid magenta;
+}
+.maxscore{
+    margin: 5px;
+}
+#wynikSetow{
+    font-size: xx-large;
+}
+#listaSetow{
+    font-size: x-large;
+}
+ul {
+    font-size: xx-large;
+    list-style-type: none;
+}
+input{
+    margin: 15px;
+}
